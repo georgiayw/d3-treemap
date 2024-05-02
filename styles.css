@@ -1,0 +1,45 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#canvas {
+    min-width: 1000px;
+    min-height: 650px;
+    position: relative;
+}
+
+svg {
+    text-wrap: wrap;
+    font: 10px sans-serif;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#legend {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+#tooltip {
+    position: absolute;
+    font-size: 12px;
+    text-align: left;
+    background-color: #A2Ad9C;
+    color: white;
+    opacity: .80;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+}
