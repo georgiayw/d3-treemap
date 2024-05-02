@@ -15,7 +15,6 @@ let mouseover = function() {
     tooltip.style('opacity', 1)
     
     d3.select(this)
-        .style('stroke', 'white')
         .style('opacity', 1)
 }
 
@@ -23,7 +22,6 @@ let mouseleave = function() {
     tooltip.style('opacity', 0)
 
     d3.select(this)
-        .style('stroke', 'none')
         .style('opacity', 1)
 }
 
